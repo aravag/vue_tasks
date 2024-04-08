@@ -1,0 +1,81 @@
+footer {
+  margin-top: 96px;
+  margin-bottom: 134px;
+  margin-inline: auto;
+  max-width: var(--max-width);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  section {
+    box-sizing: border-box;
+    flex: 0 0 400px;
+  }
+  .logo {
+    display: flex;
+    gap: 54px;
+    flex-wrap: wrap;
+    .logo__img {
+      width: 177px;
+      height: 50px;
+    }
+    .logo__description {
+      font-family: "Jost";
+      font-size: 22px;
+      line-height: 1.5;
+      letter-spacing: 0.01em;
+      color: #4d5053;
+    }
+    .logo__brand {
+      font-family: "Font Awesome 5 Brands Regular";
+      font-size: 18px;
+    }
+  }
+  .nav {
+    display: flex;
+    padding-left: 100px;
+    flex-direction: column;
+    line-height: 50px;
+    text-transform: capitalize;
+    .nav__head {
+      font-family: "DM Serif Display";
+      font-size: 25px;
+      line-height: 1.25;
+      color: var(--main-text-color);
+    }
+    .nav__link {
+      font-family: "Jost";
+      text-transform: capitalize;
+      font-size: 22px;
+      line-height: 3;
+      letter-spacing: 0.01em;
+      color: var(--secondary-text-color);
+    }
+  }
+  .contacts {
+    line-height: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    padding-left: 100px;
+
+    .contacts__head {
+      font-family: "DM Serif Display";
+      text-transform: capitalize;
+
+      font-size: 25px;
+      line-height: 1.25;
+      color: var(--main-text-color);
+    }
+    .contacts__address,
+    .contacts__mail,
+    .contacts__phone {
+      text-decoration: none;
+      font-family: "Jost";
+      font-style: normal;
+      font-size: 22px;
+      line-height: 1.5;
+      letter-spacing: 0.01em;
+      color: #4d5053;
+    }
+  }
+}

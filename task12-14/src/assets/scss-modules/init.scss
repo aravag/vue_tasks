@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "DM Serif Display";
+  src: url("~@/assets/fonts/DMSerifDisplay-Regular.woff2");
+}
+@font-face {
+  font-family: "Jost";
+  src: url("~@/assets/fonts/Jost-Regular.woff");
+}
+@font-face {
+  font-family: "Font Awesome 5 Brands Regular";
+  src: url("~@/assets/fonts/fa-brands-400.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
